@@ -50,7 +50,7 @@ while isPlaying:
     if keys[pg.K_DOWN]:
         y += speed
 
-    # if = keys[pg.K_SPACE]:
+    # if keys[pg.K_SPACE]:
 
     #window fill background   
     win.fill((100,146,40))
