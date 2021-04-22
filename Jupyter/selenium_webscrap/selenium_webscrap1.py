@@ -6,7 +6,7 @@ from time import sleep
 
 url = "https://www.coronatracker.com/pt-br"
 
-driver = webdriver.Chrome("C:\Users\gusta\AppData\Local\Programs\Python\chromedriver.exe")
+driver = webdriver.Chrome("C:\Users\gusta\AppData\Local\Programs\Python\chromedriver.exe") #find the right directory*
 driver.get(url)
 sleep(3)
 
