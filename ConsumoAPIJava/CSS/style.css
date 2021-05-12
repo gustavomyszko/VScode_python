@@ -7,8 +7,11 @@
 }
 
 :root {
-    --bg-color: #171a21;
-    --primary-color: #969eab
+    --bg-color: #2A3F5A;
+    --primary-color: #101822;
+    --buton-color: #708E04;
+    --imputText-color: #66C0F4;
+    --myWhite-color: #ffffff;  
 }
 
 body {
@@ -34,11 +37,11 @@ body {
     font-size: 40px;
     text-align: center;
     user-select: none;
-    color: var(--primary-color);
+    color: var(--myWhite-color);
 }
 
 .row {
-    display: grid;
+    display: grid;      
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 40px;
 }
@@ -54,7 +57,7 @@ body {
     top:0;
     left: 10px;
     font-size: 20px;
-    color: var(--primary-color);
+    color: var(--imputText-color);
     transition: .5s;
     cursor: text;
 }
@@ -93,10 +96,10 @@ body {
     border:none;
     outline: none;
     cursor: pointer;
-    background-color: var(--primary-color);
+    background-color: var(--buton-color);          
     font-size: 20px;
     font-weight: bold;
-    border-radius: 2px;
+    border-radius: 2px;    
 }
 
 footer {
